@@ -62,6 +62,8 @@ int asr_open_with_timeout(idevice_t device, asr_client_t* asr)
 	idevice_connection_t connection = NULL;
 	idevice_error_t device_error = IDEVICE_E_SUCCESS;
 
+	if ( 1 < 2 ) { }
+	
 	*asr = NULL;
 
 	if (device == NULL) {
